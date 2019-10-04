@@ -1,0 +1,69 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-02T16:39:27.964Z",
+        "line": 6,
+        "name": "Visualizar mais vendidos de casa",
+        "description": "",
+        "id": "visulizar-produtos-mais-vendidos-de-casa;visualizar-mais-vendidos-de-casa",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1250477200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que estou na tela de mais vendidos",
+            "match": {
+              "location": "maisVendidosCasaSteps.java:15"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1267686800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em produtos de casa",
+            "match": {
+              "location": "maisVendidosCasaSteps.java:20"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3990400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sou redirecionado para os mais vendidos de casa",
+            "match": {
+              "location": "maisVendidosCasaSteps.java:24"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "alguma coisa",
+            "match": {},
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "Visulizar produtos mais vendidos de casa",
+    "description": "",
+    "id": "visulizar-produtos-mais-vendidos-de-casa",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/main/java/feature/maisVendidosCasa.feature",
+    "tags": []
+  }
+]
